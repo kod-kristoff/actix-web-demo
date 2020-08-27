@@ -1,0 +1,18 @@
+[package]
+name = "actix-web-demo"
+version = "0.1.0"
+authors = ["Kristoffer Andersson <6058164+kod-kristoff@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+diesel = { version = "1.4", features = ["sqlite", "r2d2"] }
+actix-web = "2"
+serde = { version = "1.0", features = ["derive"] }
+log = "0.4"
+actix-rt = "1.0"
+listenfd = "0.3"
+env_logger = "0.7"
+dotenv = "*"
+r2d2 = "*"
